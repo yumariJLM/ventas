@@ -22,5 +22,10 @@ namespace holamundo
             MessageBox.Show("El genio es 2% de inteligencia y 98% de perseverancia");
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
