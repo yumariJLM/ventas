@@ -76,6 +76,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = System.Drawing.Color.Transparent;
             label1.Location = new System.Drawing.Point(275, 45);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(43, 13);
@@ -85,6 +86,7 @@
             // direccionLabel1
             // 
             direccionLabel1.AutoSize = true;
+            direccionLabel1.BackColor = System.Drawing.Color.Transparent;
             direccionLabel1.Location = new System.Drawing.Point(20, 45);
             direccionLabel1.Name = "direccionLabel1";
             direccionLabel1.Size = new System.Drawing.Size(55, 13);
@@ -94,6 +96,7 @@
             // idLabel1
             // 
             idLabel1.AutoSize = true;
+            idLabel1.BackColor = System.Drawing.Color.Transparent;
             idLabel1.Location = new System.Drawing.Point(20, 67);
             idLabel1.Name = "idLabel1";
             idLabel1.Size = new System.Drawing.Size(19, 13);
@@ -103,6 +106,7 @@
             // nombreLabel1
             // 
             nombreLabel1.AutoSize = true;
+            nombreLabel1.BackColor = System.Drawing.Color.Transparent;
             nombreLabel1.Location = new System.Drawing.Point(20, 93);
             nombreLabel1.Name = "nombreLabel1";
             nombreLabel1.Size = new System.Drawing.Size(47, 13);
@@ -112,6 +116,7 @@
             // telefonoLabel1
             // 
             telefonoLabel1.AutoSize = true;
+            telefonoLabel1.BackColor = System.Drawing.Color.Transparent;
             telefonoLabel1.Location = new System.Drawing.Point(20, 119);
             telefonoLabel1.Name = "telefonoLabel1";
             telefonoLabel1.Size = new System.Drawing.Size(52, 13);
@@ -367,7 +372,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.listadeClientesBindingNavigator);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Clientes";
             ((System.ComponentModel.ISupportInitialize)(this.listadeClientesBindingNavigator)).EndInit();
             this.listadeClientesBindingNavigator.ResumeLayout(false);
             this.listadeClientesBindingNavigator.PerformLayout();
